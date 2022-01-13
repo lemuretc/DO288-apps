@@ -12,4 +12,8 @@ spec:
           value: tododb
         - name: DATABASE_NAME
           value: todo
+        - envFrom:
+          - configMapRef:
+              name: db-config
+
 
