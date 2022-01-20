@@ -1,6 +1,6 @@
 # Use the httpd-parent image as base
 #FROM quay.io/redhattraining/httpd-parent
-FROM quay.io/repository/konstantin_rebrov/kore-httpd
+FROM quay.io/konstantin_rebrov/kore-httpd
 
 #EXPOSE 8080
 LABEL io.k8s.description="A basic Apache HTTP Server child image, uses ONBUILD" \
