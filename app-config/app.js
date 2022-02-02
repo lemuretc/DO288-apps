@@ -28,5 +28,5 @@ app.get('/', function (req, res) {
 });
 
 app.listen(8080, function () {
-  console.log('Server listening on port 8080...');
+  console.log('KORE Server listening on port 8080...');
 });
